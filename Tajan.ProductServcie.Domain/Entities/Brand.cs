@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tajan.ProductServcie.Domain.Entities;
 
+[Entity]
 public class Brand
 {
     public int Id { get; set; }
-    public string Name { get; set; }
+    public string Name { get; set; } = string.Empty;
 }
